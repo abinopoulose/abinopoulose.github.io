@@ -4923,8 +4923,8 @@
 	margin-top: 18px;
 	margin-left: 20px;
 	
-	-webkit-animation: myanim2 1s 1.7s backwards;
-	animation: myanim2 1s 1.7s backwards ;
+	/* -webkit-animation: myanim2 1s 1.7s backwards; */
+	/* animation: myanim2 1s 1.7s backwards ; */
 	
   }
   
