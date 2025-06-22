@@ -16,16 +16,13 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install
 
       - name: Build static site
         run: npm run build
-
-      - name: Export static site
-        run: npm run export
 
       - name: Deploy to GitHub Pages (main branch)
         uses: peaceiris/actions-gh-pages@v3
